@@ -241,6 +241,16 @@ a.more{
     border-radius: 3px;
     float: right;
 }*/
+.fadein {
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 2000ms;
+}
+
+.fadein.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
 
 .col-3 {
     margin-top: 30px;
